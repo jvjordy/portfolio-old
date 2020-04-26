@@ -1,0 +1,136 @@
+body {margin: 0;
+background: linear-gradient(#FFEFBA, #FFFFFF, #FFEFBA);
+}
+
+.me {margin: 30px 45% 30px 45%; 
+    border-radius: 100%;
+    width: 10%;
+
+}
+
+p {margin: 0;}
+
+hr {
+    color: black;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+nav {
+
+    text-align: center;
+}
+
+nav ul {
+    margin: 0; 
+  
+}
+
+ 
+nav li {
+    display: inline;
+    list-style-type: none;
+     
+}
+
+nav li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    font-family: 'Bitter', serif;
+    font-size: 16px;
+    text-align: center;
+    padding-left: 40px;
+    padding-right: 40px;
+    line-height: 50px;
+    letter-spacing: 2px;
+}
+
+nav li a:hover {
+ 
+    background-color: lightgrey;
+}
+
+/* header above */
+
+main{margin: 0 15% 0 15%; }
+
+#fullinfo {
+        margin-top: 60px;
+    margin-left: 6px;
+        width: 960px;
+    height: 500px;
+    float: left;
+}
+
+#about {
+
+    letter-spacing: 3px;
+    float: left;
+    margin-right: 6px;
+    font-family: 'Bitter', serif;
+        width: 520px;
+    height: 500px;
+}
+#about hr {
+  margin: 0;
+    width: 20px;
+    border: 0; 
+    border-top: 2px solid black;
+}
+
+h2{
+    font-size: 36px;
+    font-family: 'Libre Franklin', sans-serif;
+    font-weight: bold;
+    margin-top:0;
+    margin-bottom:20px;
+}
+
+#about li {
+    margin: 0;
+}
+
+#contact {
+        width: 384px;
+    height: 500px;
+    float: left;
+    margin-left: 47px;
+     font-family: 'Bitter', serif;
+    letter-spacing: 3px;
+
+}
+#contact hr {
+  margin: 0;
+    width: 20px;
+    border: 0; 
+    border-top: 2px solid black;
+}
+
+
+
+/*end of main */
+
+footer {
+    clear: both;
+    margin: 5% 15% 0 15%;
+     
+}
+
+.end {
+     position: relative;
+  text-align: center;
+  color: white;
+}
+
+.centered {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 60%);
+    font-family: 'Bitter', serif;
+    font-size: 14px;
+}
+
+
+.line {
+    width: 100%;
+}
