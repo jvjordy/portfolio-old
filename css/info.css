@@ -134,3 +134,12 @@ footer {
 .line {
     width: 100%;
 }
+
+#linkedin{
+text-decoration: none;
+color: black;
+}
+
+#linkedin:hover {
+    text-decoration: underline;
+}
